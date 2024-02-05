@@ -14,7 +14,7 @@ const GroceryListItem = (props) => {
   const [isDone, setIsDone] = useState(false);
 
   const style = {
-    'font-weight': isDone ? 'bold' : 'normal',
+    fontWeight: isDone ? 'bold' : 'normal',
   };
 
   return (
